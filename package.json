@@ -1,6 +1,6 @@
 {
   "name": "@harlandclarke/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Harland Clarke Standard Prettier config",
   "main": "index.json",
   "repository": "git@github.com:HarlandClarke/prettier-config.git",
