@@ -6,12 +6,16 @@
 
 **Install**:
 
-```bash
-$ npm install --save-dev @HarlandClarke/prettier-config
+### NPM
+
+``` bash
+npm install --save-dev HarlandClarke/prettier-config
 ```
 
+### Yarn
+
 ```bash
-$ yarn add --dev @HarlandClarke/prettier-config
+yarn add --dev @HarlandClarke/prettier-config
 ```
 
 **Edit `package.json`**:
