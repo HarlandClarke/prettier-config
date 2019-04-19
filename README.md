@@ -34,7 +34,7 @@ module.exports = {
 
 **Edit `package.json`**:
 
-```json
+```jsonc
 {
   // ...
   "prettier": "@harlandclarke/prettier-config"
