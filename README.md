@@ -4,25 +4,39 @@
 
 ## Usage
 
-**Install**:
-
-### NPM
+**Install with `npm`**:
 
 ``` bash
 npm install --save-dev HarlandClarke/prettier-config
 ```
 
-### Yarn
+**Install with `yarn`**:
 
 ```bash
 yarn add --dev @HarlandClarke/prettier-config
 ```
 
+### Enable via .prettierrc.js
+
+Provides per project override functionality
+
+**Create `.prettierrc.js`**:
+
+``` js
+module.exports = {
+  ...require("@harlandclarke/prettier-config"),
+
+  // Custom rules
+};
+```
+
+### Enable via package.json
+
 **Edit `package.json`**:
 
-```jsonc
+```json
 {
   // ...
-  "prettier": "@HarlandClarke/prettier-config"
+  "prettier": "@harlandclarke/prettier-config"
 }
 ```
